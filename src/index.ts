@@ -23,5 +23,5 @@ app.post('/api/v1/brain/share',(req,res)=>{
     //share the content with the link
 })
 app.get('/api/v1/brain/:shareLink',(req,res)=>{
-    //Fetch another user's shared brain content
+    //Fetch another user's shared brain content and can access it via link
 })
